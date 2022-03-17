@@ -4,11 +4,12 @@ import {  Container } from "./styles";
 import NavBar from "../../components/navbar";
 
 export default function Header(){
-
+    const teste= {path: 'z', label:'x'}
     return(
         <Container>
             <Logo></Logo>
-            <NavBar ></NavBar>
+            <NavBar menuItems={nav_data} ></NavBar>
+
 
         </Container>
 

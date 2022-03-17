@@ -7,6 +7,7 @@ import Features from '../sections/features'
 import Price from '../sections/price'
 import Services from '../sections/services'
 import Partners from '../sections/partners'
+import Footer from '../sections/footer'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,13 +16,13 @@ export default function Home() {
         <meta name="description" content="Mago landing" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header></Header>
+      <Header ></Header>
       <Banner></Banner>
-      <Features></Features>
+      <Features ></Features>
       <Price></Price>
-
+      <Services></Services>
       <Partners></Partners>
-
+      <Footer></Footer>
 
     </div>
   )

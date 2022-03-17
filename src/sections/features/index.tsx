@@ -9,9 +9,9 @@ import NavBar from "../../components/navbar";
 export default function Feature(){
 
     return(
-        <Features>
+        <Features id='feature'>
             <Container>
-                <Imageper src= '/VIDEO (image).png' width="670px" height="381px"></Imageper>
+
                 <Title>Reach More Customers</Title>
                 <ButtonLight>LERAN HOW</ButtonLight>
             </Container>

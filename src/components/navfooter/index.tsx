@@ -1,8 +1,6 @@
-import { Link } from 'react-scroll'
-import Image from "next/image";
 
-import { Button, Linkper } from './styles';
-type NavBarProps = {
+import {  Linkper, Nav } from './styles';
+type NavFooterProps = {
     menuItems: [
         {
             path: string,
@@ -10,9 +8,9 @@ type NavBarProps = {
         }
     ]
     }
-export default function NavBar({menuItems}: NavBarProps){
+export default function NavFooter({menuItems}: NavFooterProps){
     return(
-        <nav>
+        <Nav>
             {menuItems.map((menuItem,i)=>(
               <Linkper
               to={menuItem.path}
@@ -24,9 +22,7 @@ export default function NavBar({menuItems}: NavBarProps){
                 {menuItem.label}
               </Linkper>
               ))}
-              <Button>
-              SIGN UP FREE
-              </Button>
-        </nav>
+
+        </Nav>
 
     )}

@@ -1,9 +1,9 @@
-import { Button, Container, ContainerBG, ContainerImages, Imageper } from "./styles";
+import { Button, Container, ContainerBG, ContainerImages, Imageper, Title } from "./styles";
 
 export default function Partners(){
 
     return(
-        <Container>
+        <Container id='partners'>
             <h1>All the best brands <br /> already use us.</h1>
             <ContainerImages>
             <Imageper src= '/Logo1.png' width="160px" height="33px" />
@@ -13,6 +13,7 @@ export default function Partners(){
             <Imageper src= '/Logo5.png' width="160px" height="33px" />
             </ContainerImages>
             <ContainerBG>
+                <Title>Get started today!</Title>
                 <Button>try now</Button>
             </ContainerBG>
         </Container>

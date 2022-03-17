@@ -28,6 +28,7 @@ export const Imageper =  styled(Image)`
 export const ContainerBG = styled.div`
   background-color: ${theme.colors.primary};
   display:flex;
+  flex-direction:column;
   align-items: center;
   margin-top: 20px;
   justify-content: center;
@@ -37,8 +38,8 @@ export const ContainerBG = styled.div`
 
 `
 export const Button = styled.button`
-    width:168px;
-    height:41px;
+    width:208px;
+    height:65px;
     background-color: white;
     color: ${theme.colors.primary};
     font-weight: 800;
@@ -46,6 +47,13 @@ export const Button = styled.button`
 
     &:hover {
         cursor:pointer;
-        background-color: ${theme.colors.primaryDark};
+
       }
+`
+export const Title = styled.h1`
+      color:white;
+      font-size: 60px;
+      line-height:80px;
+      font-weight:900;
+      margin-bottom: 35px;
 `
